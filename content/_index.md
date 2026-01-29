@@ -109,7 +109,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Awards & Honors'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -119,29 +119,45 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2026-01-01'
+          description: 'Recognized for outstanding contributions to reviewing for IEEE Transactions on Instrumentation and Measurement'
+          organization: IEEE Instrumentation & Measurement Society
+          organization_url: https://ieee-ims.org/
+          title: IEEE TIM Outstanding Reviewer
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2025-01-01'
+          description: 'National talent recognition program for outstanding young researchers in China'
+          organization: China Ministry
+          organization_url: ''
+          title: National Youth Talents Plan
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2019-01-01'
+          description: 'Travel funding support for research collaboration'
+          organization: Otto Mønsteds Fond
+          organization_url: ''
+          title: Travel Allowance
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2010-01-01'
+          description: 'Provincial-level honor for academic excellence'
+          organization: ShaanXi Province, China
+          organization_url: ''
+          title: Honor Excellent Undergraduate Students
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2009-01-01'
+          description: 'National scholarship for top academic performance'
+          organization: Chinese Ministry of Education
+          organization_url: ''
+          title: National Scholarship
           url: ''
     design:
       columns: '2'
@@ -242,6 +258,37 @@ sections:
     design:
       columns: '2'
       view: compact
+  - block: markdown
+    id: patents
+    content:
+      title: Patents & Book Chapters
+      subtitle: ''
+      text: |-
+        ### Book Chapters
+        - **Advance on pseudolite network selection for optimal positioning**  
+          X. Hu, L. Liu, and W. Jiang  
+          *Handbook of Wireless Positioning*, Springer, 2024, pp. 1–31
+        
+        ### Selected Patents
+        - **Flight path determination**  
+          L. Zhang, X. Hu, and A. Liu  
+          US Patent 12,235,643, Feb. 2025
+        
+        - **Gimbal servo control method and control device**  
+          X. Hu, G. Su, A. Liu, L. Zhang, and P. Zhaoliang  
+          US Patent 12,075,159, Aug. 2024
+        
+        - **Systems and methods for adjusting UAV trajectory**  
+          L. Zhang, X. Hu, A. Liu, and G. Zhou  
+          US Patent 11,008,098, May 2021
+        
+        - **Systems and methods for UAV path planning and control**  
+          X. Hu, A. Liu, L. Zhang, and K. Tang  
+          US Patent 10,860,040, Dec. 2020
+        
+        *Total: 19 US/WO patents in UAV navigation, flight control, and sensor calibration*
+    design:
+      columns: '2'
   - block: tag_cloud
     content:
       title: Popular Topics
