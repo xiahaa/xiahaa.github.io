@@ -11,5 +11,5 @@ go.sum
 
 # Hugo binaries and tarballs
 hugo
-hugo_*
-LICENSE
+hugo_*/
+hugo_*.tar.gz

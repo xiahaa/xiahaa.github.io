@@ -45,7 +45,7 @@ education:
       institution: Technical University of Denmark
       year: 2021
     - course: M.Eng. in Computer and Communication Science
-      institution: Université de Technologie de Compiègne, Alliance Sorbonne Université
+      institution: Université de Technologie de Compiègne, Alliance Sorbonne Universités
       year: 2013
     - course: M.Eng. in Navigation, Guidance and Control
       institution: Northwestern Polytechnical University
@@ -107,7 +107,7 @@ social:
     link: 'mailto:hux062303@gmail.com'
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=your_id_here
+    link: https://scholar.google.com/
   - icon: github
     icon_pack: fab
     link: https://github.com/xiahaa

@@ -261,7 +261,7 @@ sections:
         street: ''
         city: Shenzhen
         region: Futian District
-        postcode: '510085'
+        postcode: '518000'
         country: China
         country_code: CN
       directions: ''
