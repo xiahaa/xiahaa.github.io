@@ -1,13 +1,10 @@
 ---
 title: 'Absolute and relative pose estimation in refractive multi view'
-
-# Authors
 authors:
   - admin
   - F. Lauze
   - K. S. Pedersen
   - J. Mélou
-
 date: '2021-10-01T00:00:00Z'
 doi: ''
 
@@ -15,8 +12,6 @@ doi: ''
 publishDate: '2021-10-01T00:00:00Z'
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
@@ -25,7 +20,6 @@ publication_short: In *ICCV 2021*
 
 abstract: This paper presents methods for absolute and relative pose estimation in refractive multi-view scenarios. We derive theoretical frameworks and provide practical implementations for handling refraction in structure from motion pipelines, with applications to underwater imaging and multi-layer refractive scenarios.
 
-# Summary. An optional shortened abstract.
 summary: Novel approaches for camera pose estimation through refractive interfaces, enabling accurate 3D reconstruction in challenging refractive environments.
 
 tags:
@@ -34,8 +28,7 @@ tags:
 - Refraction
 - ICCV
 
-# Display this page in the Featured widget?
-featured: true
+featured: false
 
 url_pdf: ''
 url_code: ''
@@ -46,16 +39,13 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Featured image
 image:
   caption: ''
   focal_point: ''
   preview_only: false
 
-# Associated Projects (optional).
 projects: []
 
-# Slides (optional).
 slides: ""
 ---
 
