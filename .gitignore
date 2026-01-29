@@ -8,3 +8,8 @@ jsconfig.json
 node_modules/
 go.sum
 .hugo_build.lock
+
+# Hugo binaries and tarballs
+hugo
+hugo_*
+LICENSE
