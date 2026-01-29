@@ -294,6 +294,17 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
+  - block: markdown
+    id: visitor-map
+    content:
+      title: Visitor Map
+      subtitle: 'Where our visitors come from'
+      text: |-
+        <div style="text-align: center; margin: 20px 0;">
+          <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FQXLJzqYhZjXLhVJRTbkKQqJUjR0z7qWjUJLxbGXQfk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+        </div>
+    design:
+      columns: '1'
   - block: contact
     id: contact
     content:
