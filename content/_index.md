@@ -6,7 +6,7 @@ type: landing
 
 sections:
   - block: hero
-    demo: true # Only display this section in the Wowchemy demo site
+    demo: false # Only display this section in the Wowchemy demo site
     content:
       title: Hugo Academic Theme
       image:
@@ -62,27 +62,48 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Adjunct Assistant Professor
+          company: Hong Kong University of Science and Technology (Guangzhou)
+          company_url: 'https://www.hkust-gz.edu.cn/'
+          company_logo: ''
+          location: Guangzhou, China
+          date_start: '2024-08-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              Thrust of Intelligent Transportation
+        - title: Team Leader & Senior Researcher
+          company: Lower Airspace Economy Research Institute, International Digital Economy Academy
+          company_url: 'https://idea.edu.cn/'
+          company_logo: ''
+          location: Shenzhen, China
+          date_start: '2024-01-01'
+          date_end: ''
+          description: |2-
+              Leading a team of 10+ researchers in lower airspace economy and autonomous systems research.
+        - title: Independent Researcher
+          company: Beijing Jiaotong University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: ''
+          location: Beijing, China
+          date_start: '2023-09-01'
+          date_end: '2023-12-31'
+          description: Collaborative research in computer vision and autonomous systems.
+        - title: Algorithm Expert
+          company: Autonomous Driving Lab, CaiNiao & DAMO Academy, Alibaba Group
+          company_url: 'https://www.alibabagroup.com/'
+          company_logo: ''
+          location: Hangzhou, China
+          date_start: '2021-12-01'
+          date_end: '2023-08-31'
+          description: Developed advanced algorithms for autonomous driving systems and logistics automation.
+        - title: PostDoc Researcher
+          company: Technical University of Denmark
+          company_url: 'https://www.dtu.dk/'
+          company_logo: ''
+          location: Copenhagen, Denmark
+          date_start: '2021-02-01'
+          date_end: '2021-06-30'
+          description: Research in computer vision and UAV positioning systems.
     design:
       columns: '2'
   - block: accomplishments
@@ -232,35 +253,20 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Please feel free to reach out for research collaborations or inquiries.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: hux062303@gmail.com
+      phone: (+86) 18664581982
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        street: ''
+        city: Shenzhen
+        region: Futian District
+        postcode: '518000'
+        country: China
+        country_code: CN
+      directions: ''
+      office_hours: []
+      contact_links: []
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
