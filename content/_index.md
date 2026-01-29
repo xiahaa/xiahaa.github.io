@@ -137,14 +137,6 @@ sections:
           url: ''
         - certificate_url: ''
           date_end: ''
-          date_start: '2025-01-01'
-          description: 'Recognized for outstanding contributions to reviewing for IEEE Transactions on Instrumentation and Measurement'
-          organization: IEEE Instrumentation & Measurement Society
-          organization_url: https://ieee-ims.org/
-          title: IEEE TIM Outstanding Reviewer
-          url: ''
-        - certificate_url: ''
-          date_end: ''
           date_start: '2019-01-01'
           description: 'Travel funding support for research collaboration'
           organization: Otto Mønsteds Fond

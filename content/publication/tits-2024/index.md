@@ -8,7 +8,7 @@ authors:
 - H. Wang
 - Y. Liu
 date: "2024-11-01T00:00:00Z"
-doi: "10.1109/TITS.2024.xxxx"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-11-01T00:00:00Z"
