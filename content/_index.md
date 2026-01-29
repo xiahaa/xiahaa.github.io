@@ -300,9 +300,16 @@ sections:
       title: Visitor Map
       subtitle: 'Where our visitors come from'
       text: |-
-        <div style="text-align: center; margin: 20px 0;">
-          <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FQXLJzqYhZjXLhVJRTbkKQqJUjR0z7qWjUJLxbGXQfk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+        <div style="text-align: center; margin: 20px 0;" aria-label="Interactive visitor map showing geographic distribution of website visitors">
+          <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FQXLJzqYhZjXLhVJRTbkKQqJUjR0z7qWjUJLxbGXQfk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+          <noscript>
+            <p>This section displays an interactive map showing the geographic distribution of our website visitors. JavaScript is required to view the map.</p>
+          </noscript>
         </div>
+        
+        <p style="text-align: center; font-size: 0.85em; color: #666; margin-top: 10px;">
+          <em>Note: This map uses ClustrMaps to collect anonymized visitor location data for analytics purposes.</em>
+        </p>
     design:
       columns: '1'
   - block: contact
