@@ -28,7 +28,6 @@ Visit the live website at: [xiahaa.github.io](https://xiahaa.github.io)
 This website is built with:
 - [Hugo](https://gohugo.io/) - Static site generator
 - [Wowchemy](https://wowchemy.com/) - Academic theme for Hugo
-- Hosted on GitHub Pages
 - Deployed via Netlify
 
 ## Local Development
