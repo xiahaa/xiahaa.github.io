@@ -22,8 +22,7 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/xiahaa/dtu_poster_customized
-url_code: 'https://github.com/xiahaa/dtu_poster_customized'
-url_pdf: 'uploads/posters/adv_ml_poster.pdf'
+url_pdf: '/uploads/posters/adv_ml_poster.pdf'
 url_slides: ''
 url_video: ''
 
@@ -39,7 +38,7 @@ slides: ""
 
 During my PostDoc research at the Technical University of Denmark (DTU) from February 2021 to June 2021, I created several academic research posters showcasing my work in computer vision, UAV positioning, and advanced image analysis. These posters were developed using customized Beamer poster templates with DTU branding.
 
-![Image Analysis Results](https://xiahaa.github.io/uploads/posters/final_image_analysis.png)
+![Image Analysis Results](/uploads/posters/final_image_analysis.png)
 
 ## Research Areas
 
@@ -60,7 +59,7 @@ Research in advanced image analysis covered:
 - **Stereo Vision**: Dense stereo matching algorithms for 3D reconstruction
 - **Performance Analysis**: Runtime optimization and accuracy benchmarking across multiple datasets
 
-![Runtime Analysis](https://xiahaa.github.io/uploads/posters/runtime_analysis.png)
+![Runtime Analysis](/uploads/posters/runtime_analysis.png)
 
 ## Technical Contributions
 
@@ -84,7 +83,7 @@ These templates are available on [GitHub](https://github.com/xiahaa/dtu_poster_c
 
 ## Downloads
 
-- [Advanced Machine Learning Poster (PDF)](https://xiahaa.github.io/uploads/posters/adv_ml_poster.pdf)
+- [Advanced Machine Learning Poster (PDF)](/uploads/posters/adv_ml_poster.pdf)
 
 ## Acknowledgments
 
