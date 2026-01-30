@@ -84,6 +84,7 @@ These templates are available on [GitHub](https://github.com/xiahaa/dtu_poster_c
 ## Downloads
 
 - [Advanced Machine Learning Poster (PDF)](/uploads/posters/adv_ml_poster.pdf)
+- [Advanced Image Analysis Poster (PDF)](/uploads/posters/advanced_image_analysis_poster.pdf)
 
 ## Acknowledgments
 
