@@ -270,7 +270,7 @@ sections:
       subtitle: 'Where our visitors come from'
       text: |-
         <div style="text-align: center; margin: 20px 0;" aria-label="Interactive visitor map showing geographic distribution of website visitors">
-          <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FQXLJzqYhZjXLhVJRTbkKQqJUjR0z7qWjUJLxbGXQfk&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+          <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=bgu9AkoDgB3wgYZ2EIWa6RG22CcGOkoiw1k2Iy0lphk&cl=ffffff&w=a"></script>
           <noscript>
             <p>This section displays an interactive map showing the geographic distribution of our website visitors. JavaScript is required to view the map.</p>
           </noscript>
