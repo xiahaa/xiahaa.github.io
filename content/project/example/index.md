@@ -37,7 +37,7 @@ slides: ""
 
 RS_IEKF is a MATLAB implementation for parameter estimation using Invariant Extended Kalman Filter (IEKF) for Rolling Shutter (RS) camera and IMU calibration. This project implements the multistate constrained invariant Kalman filter for accurate camera-gyroscope calibration.
 
-![Filter Architecture](https://github.com/xiahaa/RS_IEKF/blob/master/figs/filter2.png)
+![Filter Architecture](https://raw.githubusercontent.com/xiahaa/RS_IEKF/master/figs/filter2.png)
 
 ## Key Features
 
@@ -59,16 +59,16 @@ The filter estimates several critical parameters:
 The implementation has been validated on public datasets with high accuracy:
 
 ### RCCar Dataset
-- Estimated readout time: 0.0294 (Reference: 0.0316734)
-- Time delay: 5.2006 (Reference: 5.20867)
+- Estimated readout time: 0.0294 s (Reference: 0.0316734 s)
+- Time delay: 5.2006 s (Reference: 5.20867 s)
 
 ### Rotation Dataset
-- Estimated readout time: 0.0315 (Reference: 0.0316734)
-- Time delay: 2.8005 (Reference: 2.83819)
+- Estimated readout time: 0.0315 s (Reference: 0.0316734 s)
+- Time delay: 2.8005 s (Reference: 2.83819 s)
 
 ### Walk Dataset
-- Estimated readout time: 0.0309 (Reference: 0.0316734)
-- Time delay: 3.3904 (Reference: 3.38581)
+- Estimated readout time: 0.0309 s (Reference: 0.0316734 s)
+- Time delay: 3.3904 s (Reference: 3.38581 s)
 
 ## Source Code
 
@@ -84,4 +84,17 @@ The project uses datasets from:
 
 If you use this code, please cite:
 
-> Hu, X., Olesen, D. and Knudsen, P., 2020, October. Multistate Constrained Invariant Kalman Filter For Rolling Shutter Camera And Imu Calibration. In 2020 IEEE International Conference on Image Processing (ICIP) (pp. 56-60). IEEE.
+> Hu, X., Olesen, D. and Knudsen, P., 2020, October. Multistate Constrained Invariant Kalman Filter For Rolling Shutter Camera And Imu Calibration. In 2020 IEEE International Conference on Image Processing (ICIP) (pp. 56-60). IEEE. [DOI: 10.1109/ICIP40778.2020.9191166](https://doi.org/10.1109/ICIP40778.2020.9191166)
+
+**BibTeX:**
+```
+@inproceedings{hu2020multistate,
+  title={Multistate Constrained Invariant Kalman Filter For Rolling Shutter Camera And Imu Calibration},
+  author={Hu, Xiao and Olesen, Daniel and Knudsen, Per},
+  booktitle={2020 IEEE International Conference on Image Processing (ICIP)},
+  pages={56--60},
+  year={2020},
+  organization={IEEE},
+  doi={10.1109/ICIP40778.2020.9191166}
+}
+```
