@@ -1,0 +1,13 @@
+<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="58" width="58" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>IDEA Logo</title>
+  <rect fill="#0066CC" height="56" width="56" y="0" x="0" rx="8"/>
+  <circle fill="#FFFFFF" cx="28" cy="18" r="4"/>
+  <rect fill="#FFFFFF" height="18" width="4" y="24" x="26"/>
+  <rect fill="#FFFFFF" height="4" width="12" y="44" x="22"/>
+ </g>
+</svg>

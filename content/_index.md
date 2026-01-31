@@ -34,7 +34,7 @@ sections:
         - title: Adjunct Assistant Professor
           company: Hong Kong University of Science and Technology (Guangzhou)
           company_url: 'https://www.hkust-gz.edu.cn/'
-          company_logo: ''
+          company_logo: hkust-gz
           location: Guangzhou, China
           date_start: '2024-08-01'
           date_end: ''
@@ -43,7 +43,7 @@ sections:
         - title: Team Leader & Senior Researcher
           company: Lower Airspace Economy Research Institute, International Digital Economy Academy
           company_url: 'https://idea.edu.cn/'
-          company_logo: ''
+          company_logo: idea
           location: Shenzhen, China
           date_start: '2024-01-01'
           date_end: ''
@@ -60,7 +60,7 @@ sections:
         - title: Algorithm Expert
           company: Autonomous Driving Lab, CaiNiao & DAMO Academy, Alibaba Group
           company_url: 'https://www.alibabagroup.com/'
-          company_logo: ''
+          company_logo: alibaba
           location: Hangzhou, China
           date_start: '2021-12-01'
           date_end: '2023-08-31'
