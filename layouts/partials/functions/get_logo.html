@@ -1,10 +1,9 @@
 {{/* Get logo image */}}
+{{/* Accept constraint and size parameters for potential future use */}}
 {{- $constraint := .constraint | default "max_height" -}}
 {{- $size := .size | default 70 -}}
 
 {{- $logo := "" -}}
-{{- $logo_light := "" -}}
-{{- $logo_dark := "" -}}
 
 {{/* Check for custom logo in assets */}}
 {{- $custom_logo := false -}}
@@ -15,23 +14,6 @@
   {{- with resources.Get "media/logo.png" -}}
     {{- $logo = . -}}
     {{- $custom_logo = true -}}
-  {{- end -}}
-{{- end -}}
-
-{{/* Check for light/dark mode logos */}}
-{{- with resources.Get "media/logo-light.svg" -}}
-  {{- $logo_light = . -}}
-{{- else -}}
-  {{- with resources.Get "media/logo-light.png" -}}
-    {{- $logo_light = . -}}
-  {{- end -}}
-{{- end -}}
-
-{{- with resources.Get "media/logo-dark.svg" -}}
-  {{- $logo_dark = . -}}
-{{- else -}}
-  {{- with resources.Get "media/logo-dark.png" -}}
-    {{- $logo_dark = . -}}
   {{- end -}}
 {{- end -}}
 
