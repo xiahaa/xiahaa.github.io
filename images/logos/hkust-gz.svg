@@ -1,0 +1,12 @@
+<svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="58" width="58" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>HKUST-GZ Logo</title>
+  <rect fill="#00539B" height="56" width="56" y="0" x="0" rx="8"/>
+  <polygon fill="#FFD700" points="28,12 32,24 44,24 34,32 38,44 28,36 18,44 22,32 12,24 24,24"/>
+  <text font-style="normal" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="'Arial', sans-serif" font-size="8" y="52" x="28" stroke-width="0" fill="#FFFFFF">HKUST</text>
+ </g>
+</svg>

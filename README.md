@@ -29,6 +29,7 @@ Everything you normally need to change lives in `index.html`:
 | Experience / etc. | edit the matching `<section>` (`#experience`, `#education`, …)      |
 | Photo             | replace `images/avatar.jpg`                                         |
 | CV PDF            | replace `files/cv.pdf`                                              |
+| Logos & badges    | institution tiles live in `images/logos/*.svg`; publication venue badges are `<span class="venue-badge">` inside each entry |
 
 Then commit and push:
 
