@@ -45,7 +45,8 @@ The site goes live within ~1 minute (check the **Actions** tab if it doesn't).
 - Your own name in author lists is wrapped in `<strong>…</strong>`.
 - Publication entries are `<li>` blocks made of three `<div>`s:
   `.pub-title` / `.pub-authors` / `.pub-venue` (links go inside the venue line).
-- "Under review" papers live in the *Preprints & Manuscripts Under Review* group.
+- "Under review" papers are intentionally **not** listed: submissions under
+  anonymous (double-blind) review must not appear on the public homepage.
 
 ## GitHub Pages settings
 
