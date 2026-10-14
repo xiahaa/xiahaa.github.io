@@ -1,0 +1,299 @@
+/* ==========================================================================
+   Academic homepage of Xiao Hu — classic academic style
+   ========================================================================== */
+
+:root {
+  --ink: #1c2430;
+  --ink-soft: #3d4856;
+  --muted: #6b7684;
+  --accent: #1f4e79;          /* deep academic navy */
+  --accent-soft: #eef3f8;
+  --rule: #d8dee6;
+  --paper: #ffffff;
+  --paper-alt: #f7f9fb;
+  --link: #1a5fa8;
+  --link-hover: #0f3f74;
+  --gold: #9a6a00;
+  --maxw: 880px;
+  --serif: Georgia, "Times New Roman", "Songti SC", "SimSun", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+
+body {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--ink);
+  background: var(--paper);
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- top navigation ---------- */
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+.nav-inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0.55rem 1.2rem;
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.nav-name {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.06rem;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.nav-links { margin-left: auto; display: flex; gap: 0.95rem; flex-wrap: wrap; }
+.nav-links a {
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.nav-links a:hover { color: var(--accent); text-decoration: underline; }
+.nav-links a.nav-cv { font-weight: 600; }
+
+/* ---------- page frame ---------- */
+.page {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 2.2rem 1.2rem 3rem;
+}
+
+/* ---------- header / bio ---------- */
+.site-header { position: relative; }
+.avatar {
+  float: right;
+  width: 190px;
+  height: auto;
+  margin: 0.4rem 0 1.1rem 1.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--rule);
+  background: var(--paper-alt);
+}
+h1 {
+  margin: 0 0 0.2rem;
+  font-size: 2.15rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--ink);
+}
+.cn-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-left: 0.35rem;
+}
+.role {
+  margin: 0 0 0.8rem;
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.affiliations {
+  margin: 0 0 0.9rem;
+  padding: 0;
+  list-style: none;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+.affiliations li { margin-bottom: 0.15rem; }
+.affiliations a { color: inherit; }
+
+.contact { margin: 0.25rem 0; font-size: 0.95rem; }
+.contact-item { margin-right: 1.1rem; white-space: nowrap; }
+
+.bio { margin-top: 1.15rem; text-align: justify; }
+
+.interests { margin-top: 1rem; }
+.chip {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid #cddcec;
+  border-radius: 999px;
+  padding: 0.14rem 0.66rem;
+  margin: 0 0.32rem 0.38rem 0;
+  white-space: nowrap;
+}
+
+/* ---------- sections ---------- */
+.section { margin-top: 2.4rem; }
+.section h2 {
+  font-size: 1.42rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  padding-bottom: 0.28rem;
+  border-bottom: 2px solid var(--accent);
+}
+.section-note { color: var(--muted); font-size: 0.92rem; margin-top: -0.55rem; }
+
+/* ---------- news ---------- */
+.news-list { margin: 0; padding: 0; list-style: none; }
+.news-list li { margin-bottom: 0.5rem; }
+.news-list .date {
+  display: inline-block;
+  min-width: 6.2rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.86rem;
+  color: var(--accent);
+}
+
+/* ---------- publications ---------- */
+.pub-group {
+  font-size: 1.08rem;
+  color: var(--ink);
+  margin: 1.6rem 0 0.6rem;
+}
+.pubs { margin: 0; padding-left: 1.5rem; }
+.pubs li { margin-bottom: 0.85rem; }
+.pub-title { font-weight: 600; }
+.pub-authors { color: var(--ink-soft); }
+.pub-venue { color: var(--muted); font-size: 0.95rem; }
+.pub-note { font-style: normal; color: var(--muted); font-size: 0.9em; }
+.pub-link { font-size: 0.88em; }
+.award { color: var(--gold); font-weight: 600; font-size: 0.92em; }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* ---------- patents ---------- */
+.patent-group {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--paper-alt);
+  padding: 0.65rem 1.1rem;
+  margin-bottom: 0.8rem;
+}
+.patent-group summary {
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+.patent-group[open] summary { margin-bottom: 0.5rem; }
+.patents { margin: 0; padding-left: 1.3rem; font-size: 0.95rem; color: var(--ink-soft); }
+.patents li { margin-bottom: 0.45rem; }
+.patents strong { color: var(--ink); }
+
+/* ---------- experience / education timeline ---------- */
+.timeline { margin: 0; padding: 0; list-style: none; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 10.5rem 1fr;
+  gap: 0 1.3rem;
+  padding: 0.55rem 0 0.65rem;
+  border-bottom: 1px dotted var(--rule);
+}
+.timeline li:last-child { border-bottom: none; }
+.timeline .when {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding-top: 0.2rem;
+  white-space: nowrap;
+}
+.timeline .title { font-weight: 700; }
+.timeline .org { color: var(--ink-soft); font-size: 0.95rem; margin: 0.1rem 0 0.2rem; }
+.timeline .desc { color: var(--muted); font-size: 0.93rem; text-align: justify; }
+.timeline .note { font-weight: 400; color: var(--muted); font-style: italic; }
+
+/* ---------- awards ---------- */
+.awards { margin: 0; padding: 0; list-style: none; }
+.awards li { margin-bottom: 0.45rem; }
+.awards .date {
+  display: inline-block;
+  min-width: 6.2rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.86rem;
+  color: var(--accent);
+}
+
+/* ---------- service ---------- */
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 2rem;
+}
+.service-grid h3 {
+  font-size: 1.02rem;
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+.service-list { margin: 0; padding-left: 1.2rem; color: var(--ink-soft); font-size: 0.95rem; }
+.service-list li { margin-bottom: 0.4rem; }
+
+/* ---------- footer ---------- */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.84rem;
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 680px) {
+  body { font-size: 16px; }
+  .avatar { float: none; display: block; width: 150px; margin: 0 auto 1rem; }
+  .timeline li { grid-template-columns: 1fr; gap: 0.05rem; }
+  .service-grid { grid-template-columns: 1fr; gap: 1.2rem 0; }
+  .nav-inner { justify-content: center; }
+  .nav-links { margin-left: 0; justify-content: center; }
+}
+
+/* ---------- dark mode ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #dfe5ec;
+    --ink-soft: #b9c2cd;
+    --muted: #8d97a3;
+    --accent: #7db2e8;
+    --accent-soft: #1a2634;
+    --rule: #33404e;
+    --paper: #14181e;
+    --paper-alt: #1a2029;
+    --link: #7db2e8;
+    --link-hover: #a9cdf5;
+    --gold: #d9a83f;
+  }
+  .topnav { background: rgba(20, 24, 30, 0.94); }
+  .avatar { background: var(--paper-alt); }
+  .chip { border-color: #2c3b4d; }
+}
+
+/* ---------- print ---------- */
+@media print {
+  .topnav { display: none; }
+  body { font-size: 11pt; color: #000; background: #fff; }
+  .avatar { width: 130px; }
+  .section { margin-top: 1.4rem; }
+  .patent-group, .patent-group * { display: block; }
+  a { color: #000; text-decoration: underline; }
+}

@@ -1,15 +1,11 @@
-# IDEs
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
 .idea/
+*.swp
 
-# Hugo
-resources/
-public/
-jsconfig.json
-node_modules/
-go.sum
-.hugo_build.lock
-
-# Hugo binaries and tarballs
-hugo
-hugo_*/
-hugo_*.tar.gz
+# Misc
+*.log
