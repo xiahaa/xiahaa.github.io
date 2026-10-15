@@ -10,7 +10,7 @@
   <meta property="og:description" content="Low-altitude economy, UAV autonomy, perception &amp; localization, sensor fusion.">
   <meta property="og:type" content="profile">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231f4e79'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' font-weight='bold' fill='white' text-anchor='middle'%3EXH%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -78,6 +78,34 @@
       <span class="chip">Applied AI</span>
     </p>
   </header>
+
+  <!-- ================= Research Thoughts ================= -->
+  <section id="thoughts" class="section">
+    <h2>Research Thoughts on the Low-Altitude Economy</h2>
+    <p class="thoughts-intro">
+      The low-altitude economy demands a spatial-intelligence stack that today's systems do not yet
+      provide. Our team's recent results mark important steps toward closing this gap:
+    </p>
+    <div class="thought-highlights">
+      <div class="thought-item">
+        <div class="pub-title"><span class="venue-badge vb-conf">NeurIPS 2026</span>SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery</div>
+        <div class="thought-desc">Focusing on long-horizon UAV vision-language navigation, SatNav builds a scalable benchmark from satellite imagery — a key exploration for the direction, providing the evaluation foundation that long-range VLN has lacked.</div>
+      </div>
+      <div class="thought-item">
+        <div class="pub-title"><span class="venue-badge vb-conf">ACM MM 2026</span>CityPaint: A Free Lunch from 2D Diffusion for City-Scale 3D Texturing</div>
+        <div class="thought-desc">A city-scale 3D texturing framework that requires no city-scale 3D training data. CityPaint exploits 2D diffusion priors, combining adaptive camera selection, Top-K view baking, and terrain–building decoupled refinement to achieve text-controllable, globally consistent generation of large-scale 3D urban scenes.</div>
+      </div>
+    </div>
+    <p class="thoughts-synthesis">
+      Together with our earlier accumulation such as OSM-based localization (OSMLoc, ICRA 2026), these
+      pieces have preliminarily connected an end-to-end technical pipeline — from OSM/satellite data to
+      low-altitude 3D spatial reconstruction, localization, and vision-language navigation. This chain
+      effectively alleviates the industry-wide scarcity of real-scene training data for the low-altitude
+      domain, and lays a solid foundation for low-altitude digital twins and simulation for autonomous
+      UAV navigation. My sincere thanks go to all team members for their efforts and dedication —
+      and I look forward to our next breakthroughs.
+    </p>
+  </section>
 
   <!-- ================= News ================= -->
   <section id="news" class="section">

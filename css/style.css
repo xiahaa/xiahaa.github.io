@@ -149,6 +149,29 @@ h1 {
 }
 .section-note { color: var(--muted); font-size: 0.92rem; margin-top: -0.55rem; }
 
+/* ---------- research thoughts ---------- */
+.thoughts-intro { margin: 0 0 0.9rem; text-align: justify; }
+.thought-highlights {
+  display: grid;
+  gap: 0.7rem;
+  margin: 0 0 1rem;
+}
+.thought-item {
+  background: var(--paper-alt);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+}
+.thought-item .pub-title { line-height: 1.45; }
+.thought-desc {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.93rem;
+  text-align: justify;
+}
+.thoughts-synthesis { text-align: justify; }
+
 /* ---------- news ---------- */
 .news-list { margin: 0; padding: 0; list-style: none; }
 .news-list li { margin-bottom: 0.5rem; }
