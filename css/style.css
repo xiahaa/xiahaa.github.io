@@ -299,7 +299,6 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .students-title { margin: 1.6rem 0 0.6rem; font-size: 1.02rem; color: var(--ink); }
 .students-table {
   width: 100%;
-  max-width: 46rem;
   border-collapse: collapse;
   font-size: 0.95rem;
 }
@@ -314,6 +313,8 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   padding: 0.3rem 0.6rem 0.35rem 0.15rem;
   border-bottom: 2px solid var(--accent);
 }
+.students-table th:last-child,
+.students-table td.s-now { text-align: right; }
 .students-table td {
   padding: 0.42rem 0.6rem 0.42rem 0.15rem;
   border-bottom: 1px dotted var(--rule);
