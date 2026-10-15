@@ -296,33 +296,49 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .service-list li { margin-bottom: 0.4rem; }
 
 /* ---------- supervised students ---------- */
-.students-title { margin: 1.6rem 0 0.6rem; font-size: 1.02rem; color: var(--ink); }
-.students-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.95rem;
+.students-title { margin: 1.6rem 0 0.7rem; font-size: 1.02rem; color: var(--ink); }
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(196px, 1fr));
+  gap: 0.6rem;
 }
-.students-table th {
+.student-card {
+  background: var(--paper-alt);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem 0.6rem;
+  transition: border-color 0.15s ease;
+}
+.student-card:hover { border-color: var(--accent); }
+.sc-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.sc-top .s-name { font-weight: 700; font-size: 0.98rem; }
+.s-tag {
+  flex: none;
   font-family: var(--sans);
-  font-size: 0.8rem;
+  font-size: 0.66rem;
   font-weight: 700;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.1rem 0.42rem;
+}
+.tag-phd  { background: #1f4e79; }
+.tag-ind  { background: #0e7a5f; }
+.tag-int  { background: #9a6a00; }
+.tag-post { background: #6b4fa1; }
+.s-org {
+  margin-top: 0.28rem;
+  font-family: var(--sans);
+  font-size: 0.83rem;
+  line-height: 1.35;
   color: var(--muted);
-  text-align: left;
-  padding: 0.3rem 0.6rem 0.35rem 0.15rem;
-  border-bottom: 2px solid var(--accent);
 }
-.students-table th:last-child,
-.students-table td.s-now { text-align: right; }
-.students-table td {
-  padding: 0.42rem 0.6rem 0.42rem 0.15rem;
-  border-bottom: 1px dotted var(--rule);
-  vertical-align: top;
-}
-.students-table tr:last-child td { border-bottom: none; }
-.students-table td.s-name { font-weight: 700; white-space: nowrap; }
-.students-table td.s-now { color: var(--muted); }
 
 /* ---------- footer ---------- */
 .site-footer {
