@@ -295,6 +295,24 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 .service-list { margin: 0; padding-left: 1.2rem; color: var(--ink-soft); font-size: 0.95rem; }
 .service-list li { margin-bottom: 0.4rem; }
 
+/* ---------- supervised students ---------- */
+.students-title { margin: 1.6rem 0 0.6rem; font-size: 1.02rem; color: var(--ink); }
+.students {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.15rem 2.2rem;
+}
+.student {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.42rem 0.15rem;
+  border-bottom: 1px dotted var(--rule);
+  font-size: 0.95rem;
+}
+.s-name { font-weight: 700; white-space: nowrap; }
+.s-now { color: var(--muted); text-align: right; }
+
 /* ---------- footer ---------- */
 .site-footer {
   margin-top: 3rem;
@@ -313,6 +331,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
   .timeline li { grid-template-columns: 7.5rem 1fr; gap: 0.1rem 0.8rem; }
   .timeline .when { grid-column: 1 / -1; }
   .service-grid { grid-template-columns: 1fr; gap: 1.2rem 0; }
+  .students { grid-template-columns: 1fr; }
   .nav-inner { justify-content: center; }
   .nav-links { margin-left: 0; justify-content: center; }
 }
